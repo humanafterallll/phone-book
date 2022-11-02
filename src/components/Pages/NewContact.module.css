@@ -1,0 +1,29 @@
+.cardForm {
+  width: var(--sz-box-1);
+  min-height: 30rem;
+  background-color: var(--cl-6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: min(7vw, 3rem) 0;
+  gap: min(7vw, 3rem) min(7vw, 3rem);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  row-gap: min(2.5vw, 2rem);
+}
+
+label {
+  color: white;
+  font-size: var(--sz-font-3);
+  display: flex;
+  flex-direction: column;
+  row-gap: min(1.5vw, 0.8rem);
+}
+
+input {
+    width: min(60vw, 40rem);
+    height: min(7vw, 2.3rem);
+}

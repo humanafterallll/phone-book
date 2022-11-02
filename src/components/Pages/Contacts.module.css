@@ -1,0 +1,29 @@
+.cardList {
+  width: var(--sz-box-1);
+  background-color: var(--cl-6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: min(5vw, 2.5rem) 0;
+  gap: min(7vw, 3rem) min(7vw, 3rem);
+}
+
+.cardContact {
+  width: var(--sz-box-3);
+  background-color: var(--cl-2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  gap: 2rem;
+}
+
+.cardContact h3 {
+  color: var(--cl-7);
+  font-size: var(--sz-font-3);
+}
+
+.namePlusLastName {
+  flex-grow: 1;
+}

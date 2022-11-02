@@ -1,0 +1,13 @@
+.button {
+    background-color: var(--cl-5);
+    color: white;
+    font-size: var(--sz-font-3);
+    padding: 0.3rem 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.2rem;
+  }
+  
+  .button:active {
+    box-shadow: inset 0rem 0rem 0.5rem 0.05rem rgba(163,52,21,1);
+  }

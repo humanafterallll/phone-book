@@ -1,0 +1,14 @@
+.header {
+    width: var(--sz-box-1);
+    background-color: var(--cl-6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: min(3.5vw, 2rem) 0;
+    gap: min(7vw, 3rem) min(7vw, 3rem);
+}
+
+.header h1 {
+    color: white;
+    font-size: var(--sz-font-1);
+}

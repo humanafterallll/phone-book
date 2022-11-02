@@ -1,0 +1,7 @@
+.cardMenu {
+  width: var(--sz-box-1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: min(7vw, 3rem) min(7vw, 3rem);
+}

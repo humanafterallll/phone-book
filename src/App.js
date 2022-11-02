@@ -17,6 +17,12 @@ const DUMMY_CONTACTS = [
     firstName: "Mario",
     lastName: "Rossi",
     phoneNumber: "123456788"
+  },
+  {
+    id: "3",
+    firstName: "Ciro",
+    lastName: "Esposito",
+    phoneNumber: "123456787"
   }
 ];
 
